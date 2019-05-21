@@ -1,0 +1,20 @@
+test plans:
+
+textfile:abcdefghijklmnopqrstuvwxyz
+output: badcfehgjilknmporqtsvuxwzy
+
+Testing with an odd number of inputs to prove last thing works
+textfile: abcdefghijklmnopqrstuvwxyza1234567890
+output: badcfehgjilknmporqtsvuxwzy1a325476980
+
+input: jumbled03.jpg
+output: get a jpg file that displays a nice red car
+
+input: 
+output: properly tells the user to input two arguments for input and output
+
+input: just the input file but not an output name
+output: properly tells the user to input two arguments for input and output
+
+input: wrong file name
+output: stops the program and tells the  user that the input file was not found. Also properly destroys the shared memmory
